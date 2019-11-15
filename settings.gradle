@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Himnario_ Coros_y_Alabanzas'
