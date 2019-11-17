@@ -28,9 +28,10 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="165dp"
-            app:srcCompat="@drawable/himnario2"
-            android:contentDescription="TODO" />
+            android:layout_height="168dp"
+            app:srcCompat="@drawable/himnario2" />
     </LinearLayout>
+
+
 
 </LinearLayout>
