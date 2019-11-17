@@ -8,25 +8,20 @@
     android:background="@drawable/ocean"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tv"
+
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Himnario"
-        android:textAlignment="center"
-        android:textColor="#020202"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
+        android:theme="@style/AppTheme.AppBarOverlay">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#000"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"/>
+    </com.google.android.material.appbar.AppBarLayout>
 
+    <include layout="@layout/content_main" />
 </LinearLayout>
