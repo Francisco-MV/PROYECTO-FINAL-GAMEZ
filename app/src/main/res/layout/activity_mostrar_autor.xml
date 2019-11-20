@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/ocean"
-    tools:context="com.Himnario.MostrarAutor">
+    tools:context=".MostrarAutor">
 
     <TextView
         android:id="@+id/tv"
